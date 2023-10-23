@@ -353,7 +353,7 @@ public class CenterPanel extends JPanel {
         ChessPiece thisPiece = boardCells[x][y].currentChessPiece;
         if (thisPiece.color == PieceColor.WHITE) {
             System.out.println("WHITE");
-            int maxMove = 7;
+            int maxMove = 1;
 
             int[] dx = {-2, -2, -1, -1, 1, 1, 2, 2};
             int[] dy = {-1, 1, -2, 2, -2, 2, -1, 1};
@@ -379,7 +379,7 @@ public class CenterPanel extends JPanel {
         }
         else {
             System.out.println("BLACK");
-            int maxMove = 7;
+            int maxMove = 1;
 
             int[] dx = {-2, -2, -1, -1, 1, 1, 2, 2};
             int[] dy = {-1, 1, -2, 2, -2, 2, -1, 1};
@@ -408,7 +408,7 @@ public class CenterPanel extends JPanel {
         ChessPiece thisPiece = boardCells[x][y].currentChessPiece;
         if (thisPiece.color == PieceColor.WHITE) {
             System.out.println("WHITE");
-            int maxMove = 7;
+            int maxMove = 1;
 
             int[] dx = {-1, 1, 0, 0, -1, -1, 1, 1};
             int[] dy = {0, 0, -1, 1, -1, 1, -1, 1};
@@ -434,7 +434,7 @@ public class CenterPanel extends JPanel {
         }
         else {
             System.out.println("BLACK");
-            int maxMove = 7;
+            int maxMove = 1;
 
             int[] dx = {-1, 1, 0, 0, -1, -1, 1, 1};
             int[] dy = {0, 0, -1, 1, -1, 1, -1, 1};
